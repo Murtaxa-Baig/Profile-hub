@@ -6,8 +6,7 @@ import Link from "next/link";
 export const siteConfig = {
   name: "Profile Hub",
   description: "Centralize your user information and social links in one shareable profile card for seamless connections.",
-  ogImage: "https://itzmylink.vercel.app/og-image.png",
-  url: "https://itzmylink.vercel.app",
+  url: "https://profile-hub-silk.vercel.app/",
 }
 export default function Home() {
   return (

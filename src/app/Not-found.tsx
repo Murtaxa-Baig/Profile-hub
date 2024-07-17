@@ -13,11 +13,11 @@ export default function NotFound() {
                         </svg>
                     </p>
                     <h1 className="mt-3 text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">Opps! Page not found.</h1>
-                    <p className="mt-4 text-gray-500 dark:text-gray-400">Organize your links with itZmyLink and make them easy to find and share.</p>
+                    <p className="mt-4 text-gray-500 dark:text-gray-400">Organize your links with Profile Hub and make them easy to find and share.</p>
                     <div className="flex justify-center items-center w-full mt-6 gap-x-3 shrink-0 sm:w-auto">
                         <Button size={'sm'} >
                             <Link href={'/'}>
-                                Create your itZmyLink
+                                Create your Profile Hub
                             </Link>
                         </Button>
                     </div>

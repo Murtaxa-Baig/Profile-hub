@@ -28,7 +28,7 @@ export async function GET(req: NextRequest) {
             (
                 <div tw="flex flex-col w-full h-full items-center justify-center bg-white mx-auto">
                     <div tw="flex text-6xl font-bold tracking-tight leading-tight px-8" style={{ overflowWrap: "break-word" }}>
-                        {name}&#39;s - itZmyLink
+                        {name}&#39;s - Profile Hub
                     </div>
                 </div>
             ),

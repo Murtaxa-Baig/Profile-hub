@@ -83,7 +83,7 @@ const Publish: FC<PublishProps> = ({ }) => {
                                     className="w-full"
                                     onClick={() => {
                                         navigator.share({
-                                            title: `${MyLink.n} - itZmyLink`,
+                                            title: `${MyLink.n} - Profile Hub`,
                                             text: `Find all of ${MyLink.n}'s links in one place.`,
                                             url: `${inputLink}`,
                                         })
