@@ -16,11 +16,11 @@ const HomeEditor = () => {
     <PersonalInfo/>
     <SocialLinksForm/>
     <AdditionalLinkForm/>
-    <Background/>
+    {/* <Background/> */}
     <div className='grid grid-cols-2 md:grid-cols-4 gap-2 justify-center items-center w-full mb-20'>
     <Publish />
     <DemoBtn/>
-    <Link
+    {/* <Link
               target='_blank'
               href="https://mdtaquijhar.gumroad.com/l/mernproject"
               className={buttonVariants()}>
@@ -33,7 +33,7 @@ const HomeEditor = () => {
               className={buttonVariants()}>
               <Link2 className='mr-2 h-4 w-4' />
               Shortner
-            </Link>
+            </Link> */}
     </div>
       </div>
       <div className="h-auto w-[30%] hidden bg-gray-100 lg:block">

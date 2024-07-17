@@ -52,7 +52,7 @@ const SocialLinksForm: FC<SocialLinksFormProps> = () => {
                             id={link.name}
                             name={link.id}
                             icon={link.icon}
-                            placeholder={`${link.name}.com/johndoe`}
+                            placeholder={`${link.name}.com/murtaxa`}
                             value={MyLink[link.id]}
                             onChange={handleInfoChange}
                         />

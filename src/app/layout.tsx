@@ -6,43 +6,21 @@ import { Providers } from "@/components/Provider";
 
 const inter = Inter({ subsets: ["latin"] });
 
-// Original source: https://github.com/sadmann7/skateshop/blob/main/src/app/layout.tsx
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://itzmylink.vercel.app"),
+  // metadataBase: new URL("https://itzmylink.vercel.app"),
   title: {
     default: siteConfig.name,
-    template: `%s - itZmyLink`,
+    template: `%s - ProfileHub`,
   },
   description: siteConfig.description,
- 
-  // added new keywords for seo
-  keywords: [
-    "bitly url shortener",
-    "bitly link shortener",
-    "link shortener",
-    "url shortener",
-    "bitly link",
-    "tinyurls",
-    "all in one link",
-    "free url shortener",
-    "linknode",
-    "onelink",
-    "social links",
-    "free linktree",
-    "link in bio",
-    "short my url",
-    "my links",
-    "itzmylink",
-    "itZmyLink",
-    "mtLink"
-  ],
   authors: [
     {
-      name: "Taqui Imam",
-      url: "https://github.com/taqui-786",
+      name: "Murtaxa Baig",
+      url: "https://github.com/Murtaxa-Baig",
     },
   ],
-  creator: "Taqui imam",
+  creator: "Murtaxa Biag",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
@@ -61,7 +39,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     images: [`${siteConfig.url}/og-image.png`],
-    creator: "@Taquiimam14",
+    creator: "@murtaxa",
   },
   icons: {
     icon: "/favicon.ico",

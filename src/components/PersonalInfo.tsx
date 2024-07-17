@@ -40,7 +40,7 @@ const PersonalInfo = () => {
                 id="name"
                 name="n"
                 type="text"
-                placeholder="John Doe"
+                placeholder="Murtaxa Baig"
                 value={MyLink.n}
                 onChange={handleInfoChange}
               />
